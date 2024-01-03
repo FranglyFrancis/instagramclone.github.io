@@ -1,174 +1,102 @@
-head{
-    font-family: sans-serif;
-}
-.main{
-    display: block;
-}
-.background{
-    position:absolute;
-    background-image: url('images/menu.png');
-    background-size: 20px;
-    background-position: 20px;
-    background-repeat: no-repeat;
-    padding: 20px 65px;
-    padding-top: 10px;
-}
 
-.header{
-    z-index: 3;
-    width:100%;
-    background-color: #fff;
-    height: 100px;
-    position: fixed;
-    top:0;
-
-}
-
-.width{
-    width: 16px;
-}
-
-.button{
-    text-align: center;
-    border-radius:25px ;
-    margin:10px;
-    width:100px;
-    
-}
-.button1{
+.content-left{
     float:right;
-    color:#fff;
-    background-color: black;
-    
 }
 
-.button2{
-    float:right;
-    background-color: white;
-    background-image: url('images/user.PNG');  
-    background-repeat: no-repeat;
-    background-position: 3px;
-    border: none;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    
+.login{
+    float:left;
 }
 
 
-#text{
-    position: absolute;
-    top: 200px;
-    left: 12px;
-    font-size:52px;
-}
-input[type=text], select{
-    box-sizing: border-box;
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: inline-block;
-    border-radius: 0px;
-    font-size: 16px;
-}
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 
-.form-input{
-    position: absolute;
-    padding: 20px 170px;
-    background-image: url('images/locicon.png');
-    background-size: 30px;
-    background-position: 10px;
-    background-repeat: no-repeat;
-    top: 300px;
-    left: 12px;
-    border: none;
-}
-
-select{
-    position: absolute;
-    padding: 20px 20px;
-    border: none;
-    border-radius: 0px;
-    top: 300px;
-    left: 450px;
-    margin-inline: 120px;
-}
-
-.button3{
-    position: absolute;
-    padding: 20px 35px;
-    border: none;
-    border-radius: 12px;
-    top: 300px;
-    left: 700px;
-    margin-left: 80px;
-    background-color: black;
+button {
+    background-color: rgb(85, 207, 255);
     color: white;
-    font-size: 18px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
 }
 
-.textblock{
-    background-color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-.height{
-    height: 80px;
+div.box{
+    width: 300px;
+    height:320px;
+    padding:20px;
+    margin-top:50px;
+    border: 1px solid #ccc;
 }
-.gallery1{
-    margin-left: 0px;
-    display: inline;
+
+hr{
+    margin:8px;
+    width: 42%;
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
 }
 
-.gallery2{
-    display: inline;
-    margin-left: 28px;
-    margin-right: 28px;
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.gallery3{
-    display: inline;
+hr.align{
+    margin:8px;
+    width: 40%;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
 }
 
 .link{
-    color:black;
+    color: rgb(5, 5, 141);
+    text-decoration: none;
 }
 
-.alignleft{
-    float: left;
-    margin-left: 20px;
-     
-}
-span {font-size: 2.5em;}
-span b { font-size: 40%; font-weight: normal }
-
-.alignright{
-    float:right;
-    margin-right: 20px;
-    text-decoration: underline;
+.link1{
+    color: rgb(23, 23, 95);
+    text-decoration: none;
+    font-size: 10px;
 }
 
-span.size{
-    font-size: 34px;
-    font-weight: bold;
+.link2{
+    color: rgb(74, 180, 223);
+    text-decoration: none;
 }
 
-table.empty{
-    empty-cells: show;
+div.box1{
+    width: 300px;
+    height:40px;
+    padding:20px;
+    position: relative;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+}
+
+p{
+    font-size: 14px;
 }
 
 div.footer{
-    margin-left: 20px;
+    width: 100%; 
+    text-align: center;
+    font-size: 12px;
+    color: gray;
 }
 
-.footer1{
-    float: right;
-    margin-right: 22px;
-    font-size: 16px;
-    font-weight: normal;
+.space{
+    padding-right: 10px;
 }
+
 body{
-    margin:0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
